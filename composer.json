@@ -10,7 +10,7 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "CjsSalt\\": ""
+            "CjsSalt\\": "src/"
         },
         "files": [
         ]

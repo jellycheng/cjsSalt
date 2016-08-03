@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set("Asia/Shanghai");
-require __DIR__.'/../venodr/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 $host = '10.59.80.11';
 $port = '8887';
