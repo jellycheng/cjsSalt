@@ -1,0 +1,22 @@
+{
+    "name": "cjs/salt",
+    "description": "cjs",
+    "keywords": [],
+    "repositories": [
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "CjsSalt\\": ""
+        },
+        "files": [
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {}
+    },
+    "suggest": {}
+}
