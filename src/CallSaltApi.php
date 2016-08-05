@@ -253,6 +253,9 @@ class CallSaltApi
         if(!is_null($args)) {
             $requestBody['arg'] = $args;
         }
+        if(isset($param['expr_form']) && $param['expr_form']) {
+            $requestBody['expr_form'] = $param['expr_form'];
+        }
          //$postField = http_build_query($requestBody);
         $postField = json_encode($requestBody, JSON_UNESCAPED_UNICODE);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $postField);
